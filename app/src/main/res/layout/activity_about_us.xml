@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_us"
+    android:orientation="vertical"
+    android:background="#FABB20">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        android:outlineSpotShadowColor="#1E6321"
+        android:elevation="50dp"
+        android:backgroundTint="#BFDFF1"
+        ><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="we are the company which provides the necessary equipments to the farmers so that
+they can live their lives a bit easier and in mordern way.
+By using our products you can manage your farm from anywhere in the world only you have to provides us someattributes like location which
+type of crop you are farming ...If you have any type og doubt then you can contact us any time
+we are available 24X7X365 Only you have to goto the ContactUS section present into the toolBar and tap the Button or you can click
+button below...            "/>
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:id="@+id/btnContact"/>
+
+
+    </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
